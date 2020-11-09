@@ -1,0 +1,21 @@
+what the plan is.
+
+have a webpage that has a little area to insert a tweet that will post to the 
+twitter bot app and store what was posted in the database.
+
+make the app check the database for a new 'thought' from the database.
+if there is a NEW 'thought' post it. 
+if not just don't do anything.
+
+
+
+what i need:
+    a mongoose database. DONE
+    pull from mongoose/send dynamic data into twitter update. DONE
+    setup some sort of job to hit endpoint everyday at 12:15pm DONE  
+    a frontend for people to submit data. DONE
+
+    add logging
+    authentication to submit ideas?
+
+    

@@ -1,0 +1,106 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main-content{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#message{
+    position: absolute;
+    width: 351px;
+    height: 42px;
+    left: 605px;
+    top: 700px;
+}
+
+#title {
+    position: relative;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    text-align: center;
+}
+
+#ant-image {
+    display: block;
+    margin: auto;
+    height: 169px;
+    width: 169px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#tweet {
+    display: block;
+    margin: auto;
+    width: 668px;
+    margin-top: 25px;
+    padding: 50px;
+    height: 144px;
+    left: 385px;
+    top: 406px;    
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.49);
+    border: 2px solid #92CDED;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+
+#submit-button {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    background: #92CDED;
+    border-radius: 26px;
+    left: 636px;
+    top: 614px;
+    width: 85px;
+    height: 30px;
+    left: 680px;
+    top: 575px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    border: white;
+}
+
+#ant-emoji {
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    width: 710px;
+    height: 35px;
+    left: 365px;
+    top: 787px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
